@@ -12,6 +12,8 @@
 		6FFA94082081E15700187ED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA94062081E15700187ED5 /* Main.storyboard */; };
 		6FFA940A2081E15700187ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA94092081E15700187ED5 /* Assets.xcassets */; };
 		6FFA940D2081E15700187ED5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA940B2081E15700187ED5 /* LaunchScreen.storyboard */; };
+		6FFA94152081E19400187ED5 /* KRPresentAnimeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA94142081E19400187ED5 /* KRPresentAnimeTransition.swift */; };
+		6FFA94172081E1AB00187ED5 /* ToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA94162081E1AB00187ED5 /* ToViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6FFA94092081E15700187ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FFA940C2081E15700187ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FFA940E2081E15700187ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFA94142081E19400187ED5 /* KRPresentAnimeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRPresentAnimeTransition.swift; sourceTree = "<group>"; };
+		6FFA94162081E1AB00187ED5 /* ToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				6FFA94022081E15700187ED5 /* AppDelegate.swift */,
 				6FFA94042081E15700187ED5 /* ViewController.swift */,
+				6FFA94162081E1AB00187ED5 /* ToViewController.swift */,
+				6FFA94142081E19400187ED5 /* KRPresentAnimeTransition.swift */,
 				6FFA94062081E15700187ED5 /* Main.storyboard */,
 				6FFA94092081E15700187ED5 /* Assets.xcassets */,
 				6FFA940B2081E15700187ED5 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FFA94052081E15700187ED5 /* ViewController.swift in Sources */,
+				6FFA94152081E19400187ED5 /* KRPresentAnimeTransition.swift in Sources */,
 				6FFA94032081E15700187ED5 /* AppDelegate.swift in Sources */,
+				6FFA94172081E1AB00187ED5 /* ToViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = leezb101Test.UsedCustomVCTransitaioning;
+				PRODUCT_BUNDLE_IDENTIFIER = leezb101Test.CoreTxtPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = leezb101Test.UsedCustomVCTransitaioning;
+				PRODUCT_BUNDLE_IDENTIFIER = leezb101Test.CoreTxtPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
