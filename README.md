@@ -1,0 +1,2 @@
+# UsedCustomVCTransitioning
+之前项目里实现过的一个摹仿微信小视频present和dismiss的转场动画效果
